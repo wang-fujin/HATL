@@ -1,6 +1,6 @@
 # HATL_capacity_estimation
 
-This responsity is for our paper [Hierarchical alignment transfer learning for lithium-ion battery capacity estimation](https://esst.cip.com.cn/EN/abstract/abstract2115.shtml). if you think useful, please cite:
+This repository is for our paper [Hierarchical alignment transfer learning for lithium-ion battery capacity estimation](https://esst.cip.com.cn/EN/abstract/abstract2115.shtml). if you think useful, please cite:
  ```
 @article{Zhi ZHAI:1223,
 author = {Zhi ZHAI, Fujin WANG, Yi DI, Peiyu MA, Zhibin ZHAO, Xuefeng CHEN},
