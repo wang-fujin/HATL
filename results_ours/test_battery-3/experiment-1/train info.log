@@ -1,0 +1,73 @@
+[2022-03-21 15:13:07,350.350] MainThread main.py -> train line:58 [CRITICAL] : Namespace(alpha=0.05, batch_size=64, beta=0.1, ca_loss_type='L1', device='cuda', early_stop=20, embedding_length=128, input_channel=3, is_plot_test_results=False, is_save_best_model=True, is_save_logging=True, is_save_test_results=True, is_save_to_txt=True, lr=0.001, lr_decay=0.75, lr_gamma=0.0003, lr_scheduler=True, momentum=0.9, n_epoch=50, normalize_type='minmax', save_root='results_ours/test_battery-3/experiment-1', seed=2022, source_dir='data/MIT2_2', target_dir='data/MIT2_6', test_battery_id=3, use_dsbn=False, weight_decay=0.0005)
+[2022-03-21 15:13:10,680.680] MainThread main.py -> train line:110 [INFO] : Epoch:[1/50], pred_loss:0.0847, mmd_loss:0.3585->0.0179, ca_loss:0.0099->0.0010, total_loss:0.1036
+[2022-03-21 15:13:11,002.002] MainThread main.py -> train line:119 [WARNING] : valid_loss:0.0780  lr:0.0009847509624071184
+[2022-03-21 15:13:11,072.072] MainThread main.py -> train line:126 [ERROR] : Epoch:[1/50],  test_loss:0.0745
+[2022-03-21 15:13:11,072.072] MainThread main.py -> train line:127 [DEBUG] :  !!! 
+[2022-03-21 15:13:14,511.511] MainThread main.py -> train line:110 [INFO] : Epoch:[2/50], pred_loss:0.0012, mmd_loss:0.1817->0.0091, ca_loss:0.0008->0.0001, total_loss:0.0103
+[2022-03-21 15:13:14,830.830] MainThread main.py -> train line:119 [WARNING] : valid_loss:0.0260  lr:0.0009700336946746795
+[2022-03-21 15:13:14,897.897] MainThread main.py -> train line:126 [ERROR] : Epoch:[2/50],  test_loss:0.0239
+[2022-03-21 15:13:14,897.897] MainThread main.py -> train line:127 [DEBUG] :  !!! 
+[2022-03-21 15:13:18,340.340] MainThread main.py -> train line:110 [INFO] : Epoch:[3/50], pred_loss:0.0009, mmd_loss:0.2470->0.0124, ca_loss:0.0001->0.0000, total_loss:0.0133
+[2022-03-21 15:13:18,659.659] MainThread main.py -> train line:119 [WARNING] : valid_loss:0.0197  lr:0.0009558196252405448
+[2022-03-21 15:13:18,727.727] MainThread main.py -> train line:126 [ERROR] : Epoch:[3/50],  test_loss:0.0171
+[2022-03-21 15:13:18,727.727] MainThread main.py -> train line:127 [DEBUG] :  !!! 
+[2022-03-21 15:13:22,168.168] MainThread main.py -> train line:110 [INFO] : Epoch:[4/50], pred_loss:0.0013, mmd_loss:0.1969->0.0098, ca_loss:0.0000->0.0000, total_loss:0.0111
+[2022-03-21 15:13:22,486.486] MainThread main.py -> train line:119 [WARNING] : valid_loss:0.0076  lr:0.0009420822357970543
+[2022-03-21 15:13:22,553.553] MainThread main.py -> train line:126 [ERROR] : Epoch:[4/50],  test_loss:0.0075
+[2022-03-21 15:13:22,553.553] MainThread main.py -> train line:127 [DEBUG] :  !!! 
+[2022-03-21 15:13:25,996.996] MainThread main.py -> train line:110 [INFO] : Epoch:[5/50], pred_loss:0.0014, mmd_loss:0.2295->0.0115, ca_loss:0.0000->0.0000, total_loss:0.0129
+[2022-03-21 15:13:26,315.315] MainThread main.py -> train line:119 [WARNING] : valid_loss:0.0165  lr:0.0009287968779020647
+[2022-03-21 15:13:29,707.707] MainThread main.py -> train line:110 [INFO] : Epoch:[6/50], pred_loss:0.0013, mmd_loss:0.1955->0.0098, ca_loss:0.0000->0.0000, total_loss:0.0111
+[2022-03-21 15:13:30,025.025] MainThread main.py -> train line:119 [WARNING] : valid_loss:0.0054  lr:0.0009159406090521208
+[2022-03-21 15:13:30,096.096] MainThread main.py -> train line:126 [ERROR] : Epoch:[6/50],  test_loss:0.0057
+[2022-03-21 15:13:30,096.096] MainThread main.py -> train line:127 [DEBUG] :  !!! 
+[2022-03-21 15:13:33,541.541] MainThread main.py -> train line:110 [INFO] : Epoch:[7/50], pred_loss:0.0009, mmd_loss:0.1879->0.0094, ca_loss:0.0000->0.0000, total_loss:0.0103
+[2022-03-21 15:13:33,858.858] MainThread main.py -> train line:119 [WARNING] : valid_loss:0.0116  lr:0.0009034920458370688
+[2022-03-21 15:13:37,252.252] MainThread main.py -> train line:110 [INFO] : Epoch:[8/50], pred_loss:0.0012, mmd_loss:0.1756->0.0088, ca_loss:0.0000->0.0000, total_loss:0.0100
+[2022-03-21 15:13:37,570.570] MainThread main.py -> train line:119 [WARNING] : valid_loss:0.0094  lr:0.0008914312321238224
+[2022-03-21 15:13:40,978.978] MainThread main.py -> train line:110 [INFO] : Epoch:[9/50], pred_loss:0.0008, mmd_loss:0.2073->0.0104, ca_loss:0.0000->0.0000, total_loss:0.0112
+[2022-03-21 15:13:41,295.295] MainThread main.py -> train line:119 [WARNING] : valid_loss:0.0021  lr:0.0008797395204951537
+[2022-03-21 15:13:41,363.363] MainThread main.py -> train line:126 [ERROR] : Epoch:[9/50],  test_loss:0.0023
+[2022-03-21 15:13:41,363.363] MainThread main.py -> train line:127 [DEBUG] :  !!! 
+[2022-03-21 15:13:44,809.809] MainThread main.py -> train line:110 [INFO] : Epoch:[10/50], pred_loss:0.0012, mmd_loss:0.2073->0.0104, ca_loss:0.0000->0.0000, total_loss:0.0116
+[2022-03-21 15:13:45,130.130] MainThread main.py -> train line:119 [WARNING] : valid_loss:0.0126  lr:0.0008683994654057036
+[2022-03-21 15:13:48,530.530] MainThread main.py -> train line:110 [INFO] : Epoch:[11/50], pred_loss:0.0015, mmd_loss:0.2224->0.0111, ca_loss:0.0000->0.0000, total_loss:0.0126
+[2022-03-21 15:13:48,848.848] MainThread main.py -> train line:119 [WARNING] : valid_loss:0.0121  lr:0.0008573947267187878
+[2022-03-21 15:13:52,254.254] MainThread main.py -> train line:110 [INFO] : Epoch:[12/50], pred_loss:0.0017, mmd_loss:0.2018->0.0101, ca_loss:0.0000->0.0000, total_loss:0.0117
+[2022-03-21 15:13:52,571.571] MainThread main.py -> train line:119 [WARNING] : valid_loss:0.0040  lr:0.0008467099824596785
+[2022-03-21 15:13:55,975.975] MainThread main.py -> train line:110 [INFO] : Epoch:[13/50], pred_loss:0.0017, mmd_loss:0.2124->0.0106, ca_loss:0.0000->0.0000, total_loss:0.0123
+[2022-03-21 15:13:56,293.293] MainThread main.py -> train line:119 [WARNING] : valid_loss:0.0089  lr:0.0008363308497685279
+[2022-03-21 15:13:59,691.691] MainThread main.py -> train line:110 [INFO] : Epoch:[14/50], pred_loss:0.0018, mmd_loss:0.1700->0.0085, ca_loss:0.0000->0.0000, total_loss:0.0103
+[2022-03-21 15:14:00,012.012] MainThread main.py -> train line:119 [WARNING] : valid_loss:0.0083  lr:0.0008262438131628387
+[2022-03-21 15:14:03,412.412] MainThread main.py -> train line:110 [INFO] : Epoch:[15/50], pred_loss:0.0013, mmd_loss:0.1717->0.0086, ca_loss:0.0000->0.0000, total_loss:0.0099
+[2022-03-21 15:14:03,731.731] MainThread main.py -> train line:119 [WARNING] : valid_loss:0.0158  lr:0.0008164361593285612
+[2022-03-21 15:14:07,144.144] MainThread main.py -> train line:110 [INFO] : Epoch:[16/50], pred_loss:0.0019, mmd_loss:0.1849->0.0092, ca_loss:0.0000->0.0000, total_loss:0.0111
+[2022-03-21 15:14:07,461.461] MainThread main.py -> train line:119 [WARNING] : valid_loss:0.0031  lr:0.0008068959177532002
+[2022-03-21 15:14:10,863.863] MainThread main.py -> train line:110 [INFO] : Epoch:[17/50], pred_loss:0.0017, mmd_loss:0.1733->0.0087, ca_loss:0.0000->0.0000, total_loss:0.0103
+[2022-03-21 15:14:11,182.182] MainThread main.py -> train line:119 [WARNING] : valid_loss:0.0032  lr:0.0007976118065959528
+[2022-03-21 15:14:14,587.587] MainThread main.py -> train line:110 [INFO] : Epoch:[18/50], pred_loss:0.0024, mmd_loss:0.1749->0.0087, ca_loss:0.0000->0.0000, total_loss:0.0112
+[2022-03-21 15:14:14,908.908] MainThread main.py -> train line:119 [WARNING] : valid_loss:0.0031  lr:0.0007885731832607384
+[2022-03-21 15:14:18,303.303] MainThread main.py -> train line:110 [INFO] : Epoch:[19/50], pred_loss:0.0019, mmd_loss:0.1655->0.0083, ca_loss:0.0000->0.0000, total_loss:0.0102
+[2022-03-21 15:14:18,620.620] MainThread main.py -> train line:119 [WARNING] : valid_loss:0.0105  lr:0.0007797699991996056
+[2022-03-21 15:14:22,025.025] MainThread main.py -> train line:110 [INFO] : Epoch:[20/50], pred_loss:0.0021, mmd_loss:0.1630->0.0081, ca_loss:0.0000->0.0000, total_loss:0.0102
+[2022-03-21 15:14:22,343.343] MainThread main.py -> train line:119 [WARNING] : valid_loss:0.0131  lr:0.0007711927585277064
+[2022-03-21 15:14:25,743.743] MainThread main.py -> train line:110 [INFO] : Epoch:[21/50], pred_loss:0.0014, mmd_loss:0.1884->0.0094, ca_loss:0.0000->0.0000, total_loss:0.0108
+[2022-03-21 15:14:26,061.061] MainThread main.py -> train line:119 [WARNING] : valid_loss:0.0159  lr:0.0007628324800779477
+[2022-03-21 15:14:29,459.459] MainThread main.py -> train line:110 [INFO] : Epoch:[22/50], pred_loss:0.0016, mmd_loss:0.1864->0.0093, ca_loss:0.0000->0.0000, total_loss:0.0109
+[2022-03-21 15:14:29,780.780] MainThread main.py -> train line:119 [WARNING] : valid_loss:0.0034  lr:0.0007546806625644937
+[2022-03-21 15:14:33,176.176] MainThread main.py -> train line:110 [INFO] : Epoch:[23/50], pred_loss:0.0019, mmd_loss:0.1727->0.0086, ca_loss:0.0000->0.0000, total_loss:0.0105
+[2022-03-21 15:14:33,493.493] MainThread main.py -> train line:119 [WARNING] : valid_loss:0.0284  lr:0.0007467292525603184
+[2022-03-21 15:14:36,891.891] MainThread main.py -> train line:110 [INFO] : Epoch:[24/50], pred_loss:0.0024, mmd_loss:0.1829->0.0091, ca_loss:0.0000->0.0000, total_loss:0.0116
+[2022-03-21 15:14:37,208.208] MainThread main.py -> train line:119 [WARNING] : valid_loss:0.0023  lr:0.0007389706150256495
+[2022-03-21 15:14:40,603.603] MainThread main.py -> train line:110 [INFO] : Epoch:[25/50], pred_loss:0.0020, mmd_loss:0.1720->0.0086, ca_loss:0.0000->0.0000, total_loss:0.0106
+[2022-03-21 15:14:40,921.921] MainThread main.py -> train line:119 [WARNING] : valid_loss:0.0041  lr:0.0007313975061520261
+[2022-03-21 15:14:44,324.324] MainThread main.py -> train line:110 [INFO] : Epoch:[26/50], pred_loss:0.0018, mmd_loss:0.1676->0.0084, ca_loss:0.0000->0.0000, total_loss:0.0102
+[2022-03-21 15:14:44,642.642] MainThread main.py -> train line:119 [WARNING] : valid_loss:0.0130  lr:0.0007240030483112626
+[2022-03-21 15:14:48,039.039] MainThread main.py -> train line:110 [INFO] : Epoch:[27/50], pred_loss:0.0013, mmd_loss:0.1696->0.0085, ca_loss:0.0000->0.0000, total_loss:0.0097
+[2022-03-21 15:14:48,357.357] MainThread main.py -> train line:119 [WARNING] : valid_loss:0.0135  lr:0.0007167807069203366
+[2022-03-21 15:14:51,764.764] MainThread main.py -> train line:110 [INFO] : Epoch:[28/50], pred_loss:0.0014, mmd_loss:0.1908->0.0095, ca_loss:0.0000->0.0000, total_loss:0.0110
+[2022-03-21 15:14:52,080.080] MainThread main.py -> train line:119 [WARNING] : valid_loss:0.0056  lr:0.0007097242690524434
+[2022-03-21 15:14:55,485.485] MainThread main.py -> train line:110 [INFO] : Epoch:[29/50], pred_loss:0.0017, mmd_loss:0.1845->0.0092, ca_loss:0.0000->0.0000, total_loss:0.0109
+[2022-03-21 15:14:55,804.804] MainThread main.py -> train line:119 [WARNING] : valid_loss:0.0046  lr:0.000702827823641505
+[2022-03-21 15:14:59,207.207] MainThread main.py -> train line:110 [INFO] : Epoch:[30/50], pred_loss:0.0013, mmd_loss:0.1786->0.0089, ca_loss:0.0000->0.0000, total_loss:0.0102
+[2022-03-21 15:14:59,525.525] MainThread main.py -> train line:119 [WARNING] : valid_loss:0.0086  lr:0.000696085743142558
